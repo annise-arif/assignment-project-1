@@ -9,14 +9,18 @@ header{
 }
 h1{
     font-size: 90px;
+    border-left: 5px solid rgb(240, 69, 120);
+    border-radius: 5px;
+   
 }
+
 .color-orange{
     color: rgb(247, 174, 40);
 }
 .mission-2022{
     width: 40%;
     padding-left: 10%;
-    
+   
 }
 .top-padding{
     padding-top: 5%;
@@ -89,15 +93,275 @@ h1{
     background-color: #FFF4D6;
     border-radius: 25px;
 }
+/* -------------------- */
+.develop{
+    display: flex;
+    margin-top: 6%;
+    background-image: url(mission-2022-main/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: 80px;
+    background-position-y: 60px;
+}
+.develop-headline{
+    font-size: 50px;
+}
+.develope-blog{
+    margin-right: 10%;
+    width: 50%;
+}
+.develop p{
+    font-size: 24px;
+}
+/* --------------------- */
+
+.global-community{
+    display: flex;
+    margin-top: 6%;
+    padding-bottom: 80px;
+    background-image: url(mission-2022-main/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position-x: 1570px;
+    background-position-y: 280px;
+
+}
+.global-blog{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.global-blog p{
+    font-size: 24px;
+}
+.global-blog img{
+    width: 100%;
+}
+/* ------------------ */
 
 
+
+/* --------personal design start-------- */
+
+/* skills section start */
+.skills{
+    background: #F5F5F5;
+    padding-top: 80px;
+   }
+   .SKILLS{
+     margin-left: 180px;
+     background: #F5F5F5;
+     margin-left: 930px;
+   }
+   .para p{
+       margin-left: 540px
+   }
+   /* circle meater start */
+   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+  
+   .skillpara{
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+   }
+  
+     .meaterrow{
+      margin: ;
+      padding: ;
+      font-family: 'Roboto', sans-serif;
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 60vh;
+      background: #F5F5F5;
+  
+  
+      position: relative;
+      width: 1470px;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 230px;
+     }
+     
+     .meaterrow .Card{
+       position: relative;
+       width: 300px;
+       background: linear-gradient(0deg, #F5F5F5, #F5F5F5, #F5F5F5);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 300px;
+       border-radius: 4px;
+       text-align: center;
+       overflow: hidden;
+       transition: 0.5s;
+       
+     }
+     .Card:hover{
+      transform: translate(-10px);
+      box-shadow: 0 15px 35px rgba(0,0,0,.5);
+    }
+  
+    .meaterrow .Card:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -50;
+      width: 100%;
+      height: 100% ;
+      background: #F5F5F5;
+      pointer-events: none;
+      z-index: 1;
+  
+    }
+  
+    .percent{
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      box-shadow: inset 0 0 50px #F5F5F5;
+      background: #F5F5F5;
+      z-index: 1000;
+  
+    }
+  
+    .percent .number{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+  
+    }
+  
+    .percent .number h2{
+     color: #777;
+     font-weight: 700;
+     font-size: 40px;
+     transition: 0.5s;
+  
+    }
+    .Card:hover .percent .number h2{
+      color: rgb(133, 169, 140);
+      font-size: 60px;
+    }
+    .percent .number h2 span{
+      font-size: 24px;
+      color: #777;
+     
+    }
+    .Card:hover .percent .number h2 span{
+      color: rgb(133, 169, 140);
+    }
+  
+    .Card:hover .User-Interface{
+      color: rgb(133, 169, 140);
+      font-size: 18px;
+      transition: 0.6s;
+    }
+  
+    .Card:hover .Front-end{
+      color: rgb(133, 169, 140);
+      font-size: 18px;
+      transition: 0.6s;
+    }
+  
+    .Card:hover .User-experience{
+      color: rgb(133, 169, 140);
+      font-size: 18px;
+      transition: 0.6s;
+    }
+  
+    .Card:hover .Icon-Design{
+      color: rgb(133, 169, 140);
+      font-size: 18px;
+      transition: 0.6s;
+    }
+   
+    .Card:hover .text{
+      color: #fff;
+    }
+  
+     svg{
+       position: relative;
+       width: 300px;
+       height: 300px;
+       z-index: 1000;
+       margin-top: 55px;
+       margin-left: 50px;
+     }
+  
+     svg circle{
+       width: 100%;
+       height: 100%;
+       fill: none;
+       stroke: #F5F5F5;
+       stroke-width: 10;
+       stroke-linecap: round;
+       transform: translate(5px,5px);
+       margin-top: 100px;
+     }
+  
+     svg circle:nth-child(2){
+       stroke-dasharray: 440;
+       stroke-dashoffset: 440;
+  
+     }
+  
+     .Card:nth-child(1) svg circle:nth-child(2){
+       stroke-dashoffset: calc(440 - (440 * 85) / 100);
+       stroke:#35AFBA;
+  
+     }
+  
+     .Card:nth-child(2) svg circle:nth-child(2){
+      stroke:#34CF75;
+      stroke-dashoffset: calc(440 - (440 * 85) / 100);
+      
+    }
+  
+    .Card:nth-child(3) svg circle:nth-child(2){
+      stroke: #279856;
+      stroke-dashoffset: calc(440 - (440 * 1500) / 1500);
+      
+    }
+  
+    .Card:nth-child(4) svg circle:nth-child(2){
+      stroke: #5Ea8D9;
+      stroke-dashoffset: calc(440 - (440 * 1500) / 1500);
+      
+    }
+  /* circle meater end */
+  /* skills section end */
+  /* personal design end */
 
 
 /* main end */
 /* footer start */
 footer{
+    color: rgb(201, 197, 197);
     background-color: black;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+.Fmission{
+    font-size: 40px;
+    font-family: 'Sonsie One', cursive;
+}
+.color-darkorange{
+    color: rgb(247, 103, 103);
 }
 
+.color-darkorange{
 
+}
 /* footer end */
